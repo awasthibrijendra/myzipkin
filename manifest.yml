@@ -1,0 +1,7 @@
+applications:
+  - name: myzipkin
+    memory: 700M
+    instances: 1
+    path: build/libs/myzipkin-0.0.1-SNAPSHOT.jar
+    routes:
+    - route: brijendra-zipkin.cfapps.io
